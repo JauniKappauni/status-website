@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from ping3 import verbose_ping
 
 app = Flask(__name__)
